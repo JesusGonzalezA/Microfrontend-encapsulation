@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div id="microfrontend_host_1">
+        <template shadowrootmode="open">
+            <style>
+                @import url("./index.css");
+            </style>
+            <p>First microfrontend content</p>
+        </template>
+    </div>
+
+    <div id="microfrontend_host_2">
+        <template shadowrootmode="open">
+            <style>
+                @import url("./index-2.css");
+            </style>
+            <p>Second microfrontend content</p>
+        </template>
+    </div>
+</body>
+</html>
